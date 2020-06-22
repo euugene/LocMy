@@ -1,0 +1,20 @@
+.header{
+    grid-area: header;
+    display: flex;
+}
+
+.headerLogo{
+    background-image: url(./../images/dd.png);
+    background-size: cover;
+    background-position-x: center;
+    width: 120px;
+
+    height: 100px;
+    margin: 10px;
+}
+.headerTitle{
+    background-image: url(./../images/log.png);
+    width: 100%;
+    max-height: 100px;
+    margin: 10px 10px 10px  0;
+}

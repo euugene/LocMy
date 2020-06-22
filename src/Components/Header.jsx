@@ -1,11 +1,11 @@
 import React from "react";
-
+import classes from './Header.module.css';
 const Header = () => {
     return(
-        <header className="header">
-            <img className = "header-logo" src={"https://c7.hotpng.com/preview/760/399/628/map-computer-icons-flat-design-location-logo-thumbnail.jpg"} />
-            <div className="header-title">
-                <span className ="header-title__text ">LocMy.com </span>
+        <header className={classes.header}>
+            <img className={classes.headerLogo}/>
+            <div className={classes.headerTitle}>
+                <span>LocMy.com </span>
             </div>
         </header>
     );

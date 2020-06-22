@@ -1,0 +1,23 @@
+
+.div{
+    grid-area: content;
+}
+.profile{
+    background-color: green;
+    margin: 10px;
+    height: 210px;
+}
+.profileImg{
+    height: 100px;
+    width: 100px;
+}
+.aboutPerson{
+    display: flex;
+    padding: 10px;
+}
+.aboutPersonText{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+

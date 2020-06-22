@@ -1,0 +1,14 @@
+.menu {
+    grid-area: nav;
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+    margin: 10px 0 10px 10px;
+    height: 610px;
+}
+
+.item {
+    color: white;
+    margin: 5px 0 10px 10px;
+}
+
