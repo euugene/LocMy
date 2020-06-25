@@ -2,11 +2,11 @@
   max-width: 100%;
   display: grid;
   grid-template-areas:
-  "header header"
+  "log header"
   "nav content";
 
-  grid-template-rows: 120px 1fr;
-  grid-template-columns: 120px  11fr;
+  grid-template-rows: 80px 1fr;
+  grid-template-columns: 3fr 9fr;
   /*grid-gap: 10px;*/
 
 }

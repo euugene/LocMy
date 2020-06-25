@@ -1,0 +1,29 @@
+.menu {
+    grid-area: nav;
+    display: flex;
+    flex-direction: column;
+    background-color: #0e1a35;
+    /*margin: 10px 0 10px 10px;*/
+    /*margin-top: 10px;*/
+    height: 100%;
+    /*max-width: 300px;*/
+}
+
+.item {
+    color: white;
+    padding: 20px 0 20px 15px;
+    margin: 2px 0 2px 0;
+    background-color: #122142;
+ }
+.item:first-child{
+    margin-top: 0;
+}
+.item:hover{
+    /*background-color: #64AAD0;*/
+    /*opacity: 0.6;*/
+
+    border-left: 5px solid #3C9DD0;
+    /*background-color: #8693C7;*/
+
+}
+

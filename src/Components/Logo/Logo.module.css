@@ -1,0 +1,5 @@
+.logo{
+    grid-area: log;
+    background-color: #0e1a35;
+    height: 100%;
+}

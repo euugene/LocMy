@@ -3,9 +3,10 @@
     grid-area: content;
 }
 .profile{
-    background-color: green;
-    margin: 10px;
-    height: 210px;
+    background-color: #EBECEE;
+    /*margin-top: 10px;*/
+    height: 100%;
+
 }
 .profileImg{
     height: 100px;

@@ -1,6 +1,6 @@
 import React from "react";
-import './Profile.module.css';
 import classes from './Profile.module.css';
+import MyNotations from "./Notations/MyNotations";
 
 const Profile = () => {
     return (
@@ -18,10 +18,7 @@ const Profile = () => {
             </div>
 
             <div>About me + possibility of adjustment</div>
-            <div>Notation
-                <div>comment 1</div>
-                <div>comment 2</div>
-            </div>
+            <MyNotations />
         </div>
     );
 }
