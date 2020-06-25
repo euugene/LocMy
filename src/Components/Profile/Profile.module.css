@@ -1,24 +1,24 @@
 
-.div{
+.div {
     grid-area: content;
 }
-.profile{
-    background-color: #EBECEE;
-    /*margin-top: 10px;*/
-    height: 100%;
 
+.profile {
+    background-color: #EBECEE;
+    height: 100%;
+    padding: 15px 0 0 15px;
 }
-.profileImg{
+.profileImg {
     height: 100px;
     width: 100px;
 }
-.aboutPerson{
+
+.aboutPerson {
     display: flex;
-    padding: 10px;
 }
-.aboutPersonText{
+
+.aboutPersonText {
     display: flex;
     flex-direction: column;
-    margin: 10px;
 }
 
