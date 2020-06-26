@@ -7,7 +7,7 @@ const MyNotations = () => {
     return (
 
             <div>Notation
-                <Notation/>
+                {/*<Notation/>*/}
                 <Notation/>
                 <Notation/>
                 <Notation/>

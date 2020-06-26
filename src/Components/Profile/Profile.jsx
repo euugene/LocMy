@@ -10,10 +10,10 @@ const Profile = () => {
                 <img className={classes.profileImg}
                      src={"https://i.pinimg.com/736x/0c/a9/e2/0ca9e28dcb12dc698cfd2beda6d6fa64--youtube.jpg"}/>
                      <div className={classes.aboutPersonText}>
-                <div className={"name"}> Tomas</div>
-                <div className={"surname"}> Twich</div>
-                <div className={"age"}> 20 years</div>
-                <div className={""}></div>
+                <div className={classes.name}> Tomas</div>
+                <div className={classes.surnme}> Twich</div>
+                <div className={classes.age}> 20 years</div>
+                <div className={""} ></div>
                      </div>
             </div>
 

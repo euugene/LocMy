@@ -3,19 +3,32 @@
     display: flex;
     flex-direction: column;
     background-color: #0e1a35;
-    height: 100%;
 }
+
 .item {
     color: white;
     padding: 20px 0 20px 15px;
     margin: 2px 0 2px 0;
     background-color: #122142;
- }
-.item:first-child{
+    text-decoration: none;
+
+}
+
+.item:first-child {
     margin-top: 1px;
 }
-.item:hover{
+
+.item:hover {
     background-color: #172953;
     border-left: 5px solid #3C9DD0;
+    cursor: pointer;
+    text-decoration: none;
+
 }
+
+.item.act {
+    text-decoration: none;
+    border-left: 5px solid #3C9DD0;
+}
+
 
