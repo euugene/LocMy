@@ -2,12 +2,12 @@ import React from "react";
 import './MyNotations.module.css';
 import classes from './MyNotations.module.css';
 import Notation from "./Notation/Notation";
-
+import NotationLogo from "./NotationLogo/NotationLogo";
 const MyNotations = () => {
     return (
 
-            <div>Notation
-                {/*<Notation/>*/}
+            <div>
+                <NotationLogo/>
                 <Notation/>
                 <Notation/>
                 <Notation/>

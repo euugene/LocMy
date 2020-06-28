@@ -1,0 +1,15 @@
+.profileInfo{
+    display: flex;
+}
+.profileImg {
+    height: 100px;
+    width: 100px;
+}
+.aboutPerson {
+    display: flex;
+}
+.aboutPersonText {
+    display: flex;
+    flex-direction: column;
+}
+

@@ -9,21 +9,12 @@ const Persons = () => {
             <div className={classes.personLabel}> Persons</div>
 
             <div className={classes.personItems}>
-                <div className={classes.item}>
-                    <NavLink className={classes.itemLink} to="/dialogs/1">Petr</NavLink>
-                </div>
-                <div className={classes.item}>
-                    <NavLink className={classes.itemLink} to="/dialogs/2">Andrey</NavLink>
-                </div>
-                <div className={classes.item}>
-                    <NavLink className={classes.itemLink} to="/dialogs/3">Lena</NavLink>
-                </div>
-                <div className={classes.item}>
-                    <NavLink className={classes.itemLink} to="/dialogs/4">Igor</NavLink>
-                </div>
-                <div className={classes.item}>
-                    <NavLink className={classes.itemLink} to="/dialogs/5">Dima</NavLink>
-                </div>
+                <Person id="1" name="Petr"></Person>
+                <Person id="2" name="Lena"></Person>
+                <Person id="3" name="Andrey"></Person>
+                <Person id="4" name="Igor"></Person>
+                <Person id="5" name="Dima"></Person>
+
             </div>
         </div>
     );

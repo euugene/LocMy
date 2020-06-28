@@ -1,27 +1,12 @@
 import React from "react";
 import classes from './Person.module.css';
+import {NavLink} from "react-router-dom";
 
-const Person = () => {
+const Person = (props) => {
+    let path = "/messages/" + props.id;
     return (
-        <div className={classes.person}>
-
-        <div className={classes.personItems}>
         <div className={classes.item}>
-            Petr
-        </div>
-            <div className={classes.item}>
-                Andrey
-            </div>
-            <div className={classes.item}>
-                Lena
-            </div>
-            <div className={classes.item}>
-                Igor
-            </div>
-            <div className={classes.item}>
-                Dima
-            </div>
-        </div>
+            <NavLink className={classes.itemLink} to={path}>{props.name}</NavLink>
         </div>
     );
 }
