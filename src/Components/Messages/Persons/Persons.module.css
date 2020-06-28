@@ -1,0 +1,21 @@
+.persons{
+    border-right: 2px solid rgba(132, 146, 175, 0.3);
+}
+.personLabel{
+    padding: 10px 0 10px 30%;
+    font-weight: 600;
+    font-size: 24px;
+    border-bottom: 2px solid rgba(132, 146, 175, 0.3);
+
+}
+.personItems{
+    padding: 20px 0 0 40px;
+}
+.item{
+    padding: 15px 0 0 0;
+}
+.itemLink {
+    text-decoration: none;
+    color: black;
+
+}

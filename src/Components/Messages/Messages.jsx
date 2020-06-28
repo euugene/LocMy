@@ -1,12 +1,16 @@
 import React from "react";
 import classes from './Messages.module.css';
+import Persons from "./Persons/Persons";
+import Dialogs from "./Dialogs/Dialogs";
 
-const Logo = () => {
+const Messages = () => {
     return (
         <div className={classes.messages}>
-        Messages
+            <Persons/>
+            <Dialogs/>
         </div>
+
     );
 }
 
-export default Logo;
+export default Messages;

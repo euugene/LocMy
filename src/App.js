@@ -14,11 +14,10 @@ const App = () => {
                 <Logo/>
                 <Header/>
                 <Navbar/>
-                {/*<div class = "main">*/}
+                <div class = "main">
                 <Route path='/profile' component={Profile}/>
                 <Route path='/messages' component={Messages}/>
-                {/*</div>*/}
-
+                </div>
                 </div>
         </BrowserRouter>
 );
