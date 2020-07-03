@@ -4,6 +4,7 @@
 .profileImg {
     height: 100px;
     width: 100px;
+    float: left;
 }
 .aboutPerson {
     display: flex;

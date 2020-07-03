@@ -1,8 +1,91 @@
-.item{
+.itemLink{
+    padding: 40px 0 40px 0;
+    margin: 5px 5px 0 5px;
+    font-size: 20px;
+    background-color: silver;
+    /*display: flex;*/
+    /*text-align: center;*/
+    text-decoration: none;
+    color: white;
+    display: block;
+    border-radius: 100px;
+}
+/*.itemLink:first-child{*/
+/*    margin-top: 0;*/
+/*}*/
+.itemLink:hover{
+    background-color: skyblue;
+}
+.itemLink.active{
+    background-color: skyblue;
+}
+.itemLinkImagine{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.itemLinkText{
+    margin: auto 20px auto 20px;
+}
+.front{
     padding: 15px 0 0 0;
 }
+.back{
+    padding: 0 0 0 10px;
+}
 .itemLink {
-    text-decoration: none;
-    color: black;
+    transition: all .07s linear;
+    position: relative;
+    cursor: pointer;
+}
+/*.itemLink:hover */
+.itemLinkText,
+.itemLink:focus .itemLinkText {
+    transform: translateZ(-25px) rotateX(90deg);
+}
+
+.itemLinkText {
+    transition: all .3s ease-out;
+    transform: translatez(-25px);
+    transform-style: preserve-3d;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.front {
+    transform: rotatex(0deg) translatez(25px);
+}
+
+.back {
+    transform: rotatex(-90deg) translatez(25px);
+}
+.frontText{
+    margin: auto 20px auto 10px;
+    padding: 0 20px 0 0;
+}
+.backText{
+    margin: auto 20px auto 10px;
+    padding: 0 20px 0 0;
+}
+.front{
+    color: #172953;
+}
+.back {
+    color: #172953;
+    font-size: 20px;
+    font-weight: 600;
+}
+.front, .back {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    box-sizing: border-box;
 
 }

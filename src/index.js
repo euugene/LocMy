@@ -4,9 +4,17 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+let personsData = [
+    {id : "1", name: "Petr"},
+    {id : "2", name: "Igor"},
+    {id : "3", name: "Eugeniy"},
+    {id : "4", name: "Lena"},
+    {id : "5", name: "Jeka"}
+];
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App personData={personsData}/>
   </React.StrictMode>,
   document.getElementById('root')
 );

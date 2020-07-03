@@ -3,10 +3,10 @@ import classes from './Messages.module.css';
 import Persons from "./Persons/Persons";
 import Dialogs from "./Dialogs/Dialogs";
 
-const Messages = () => {
+const Messages = (props) => {
     return (
         <div className={classes.messages}>
-            <Persons/>
+            <Persons personData={props.personData}/>
             <Dialogs/>
         </div>
 
